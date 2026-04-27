@@ -1,0 +1,19 @@
+{
+  "name": "ev-receipt-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "@anthropic-ai/sdk": "^0.24.0",
+    "pdf-lib": "^1.17.1",
+    "sharp": "^0.33.4",
+    "pdfjs-dist": "^4.4.168"
+  }
+}
